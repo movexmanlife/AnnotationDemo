@@ -96,7 +96,7 @@ public class AnnotationProcessor extends AbstractProcessor {
              * (2)ExecutableElement is not same to Element. Method can use ExecutableElement.
              * Class use Element.
              * */
-            // ExecutableElement executableElement = (ExecutableElement) element;
+             ExecutableElement executableElement = (ExecutableElement) element;
 
             TypeElement enclosingElement = (TypeElement) element.getEnclosingElement();
 
